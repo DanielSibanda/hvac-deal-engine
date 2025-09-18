@@ -1,49 +1,56 @@
-# HVAC-Deal-Engine
+# HVAC Deal Engine — 50-Company Market Map & Monte Carlo Valuation
 
-## What I Did and Why It Matters
-SellSide wins where fragmented service markets meet repeatable growth levers.  
-So I built a **50-company map** of HVAC / Mechanical / BAS controls firms across **PA/NJ/DE** with adjacency into **MD/DC/VA/NY**.
-
-I biased toward:
-- **Service-heavy revenue** (higher recurring cash flow)
-- **BAS/controls capability** (stickier customers, better margins)
-- **Dispatch density** (route efficiency → EBITDA lift)
-
-This is **not just a list** — it's a **deal engine** for both sell-side and buy-side work.  
-It mirrors private-market patterns where **service-heavy trades ~7–10× EBITDA** and project-heavy closer to **4–6×**, producing a ready micro-universe of add-on targets.
+**Independent research case study.**  
+This project demonstrates how to map fragmented HVAC / Mechanical / BAS markets and evaluate investment opportunities using valuation frameworks and Monte Carlo modeling.
 
 ---
 
-## Repository Contents
-- **/slides/** → Presentation deck (*A 50-Company Map Built for Action*)
-- **/data/company_list.csv** → Structured list of target companies
-- **/model/hvac_deal_engine_monte_carlo.xlsx** → Monte Carlo IRR model
-- **/docs/** → Pitch email, call script, upload instructions
+## 📊 Contents
+- `slides/HVAC_Industry_Map.pdf` — Rebranded industry map and strategy deck.
+- `models/MonteCarlo_IRR_public.xlsx` — Monte Carlo IRR model (sanitized).
+- `data/company_list_public.csv` — Publicly sourced company dataset (name, region, segment).
 
 ---
 
-## Monte Carlo Highlights
-- Entry Multiple: Tri(6.0, 7.0, 8.0×)  
-- Exit Multiple: Tri(6.5, 7.5, 8.5×)  
-- EBITDA margin: 12% + synergy uplift (~1.0% ± 0.5%)  
-- Revenue CAGR: 4% ± 3%  
-- 60% debt @ 9%, 40% equity, 5-year hold
-
-**Results:**
-- **Median IRR:** ~18–20%
-- **P25/P75 IRR:** ~15–23%
-- **Prob(IRR > 15%):** ~50–65%
-- Entry EV: ~$40–45M • Exit EV: ~$55–70M
+## 🔎 Research Overview
+- Mapped **50 companies** across PA/NJ/DE/MD/DC/VA/NY.
+- Segmented firms into:
+  - Regional mechanical contractors  
+  - Service-heavy residential/light commercial  
+  - Controls / BAS specialists  
+  - Refrigeration & specialty service  
+  - Consolidators / public platforms  
+- Focused on **service mix, BAS capability, and route density** — key drivers of EBITDA quality and higher valuation multiples.
 
 ---
 
-## Why These 50 Together?
-**Service mix + Controls + Density** → recurring revenue, BAS stickiness, and route-density leverage.  
-These are the levers that lift EV/EBITDA in private HVAC deals.
+## 📈 Monte Carlo Valuation
+Simulated IRRs for a $50M revenue BAS-forward platform using:
+- Entry/exit multiple bands  
+- Revenue growth rates  
+- Margin uplift from synergies  
+- Integration risks  
+
+**Illustrative results**:
+- Median IRR ≈ 18–20%  
+- P25 / P75 ≈ 15–23%  
+- Probability(IRR > 15%) ≈ 50–65%  
 
 ---
 
-## Quick Start
-1. See `/docs/UPLOAD_STEPS.md` for GitHub upload instructions.
-2. Share this repo on LinkedIn, resume, or in investor/BD discussions.
-3. Use `company_list.csv` to track outreach and deal flow.
+## 🛠 Skills & Tools
+- Excel (Monte Carlo simulation, scenario modeling)  
+- Market mapping & competitive segmentation  
+- Valuation frameworks (EV/EBITDA multiples, IRR distributions)  
+- Presentation building for investment committees  
+
+---
+
+## 📜 License & Disclaimer
+This project is for **educational and demonstration purposes only**.  
+It was originally created as an interview case study, not on behalf of any firm.  
+All company-level data included here is from public sources; any confidential or proprietary data has been excluded.
+
+License: CC BY-NC 4.0 (Non-Commercial Use)
+
+
