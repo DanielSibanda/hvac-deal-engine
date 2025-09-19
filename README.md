@@ -6,7 +6,7 @@ This project demonstrates how to map fragmented HVAC / Mechanical / BAS markets 
 ---
 
 ## 📊 Contents
-- `slides/HVAC_Industry_Map.pdf` — Rebranded industry map and strategy deck.
+- `slides/HVAC_Industry_Map.pptx` — Rebranded industry map and strategy deck.
 - `models/MonteCarlo_IRR_public.xlsx` — Monte Carlo IRR model (sanitized).
 - `data/company_list_public.csv` — Publicly sourced company dataset (name, region, segment).
 
